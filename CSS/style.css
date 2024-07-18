@@ -4,3 +4,47 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+/* Medidas de Hero Banner */
+.hero-banner{
+    height: 45rem;
+    width: 100%;
+    background-image: url(/PORTAFOLIO/img/ultimate.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-banner > .infoDonalc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Barra de Navegacion Estilos Iniciales */
+nav{
+    position:fixed;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(137, 43, 226, 0.509);
+}
+/* Barra de Navegacion Estilo a Elementos  */
+nav li{
+    display: inline-block;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin:14px;
+    font-size: 18px;
+}
+
+/* Imagen de Hero Banner */
+
+.infoDonalc{
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+}
