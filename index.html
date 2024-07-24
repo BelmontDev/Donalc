@@ -1,29 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>DONALC</title>
-</head>
-<body>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="hero-banner">
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
 
-        <nav>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Experiencia</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </nav>
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="/CSS/style.css">
 
+      <title>DONALC</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">DONALC</a>
 
-        <div class="infoDonalc"></div>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Inicio</span>
+                     </a>
+                  </li>
 
-    </div>
-    
-</body>
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Nosotros</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Proyectos</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Studio</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Contacto</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://github.com/" target="_blank" class="nav__social-link">
+                    <i class="ri-facebook-circle-fill"></i>
+                  </a>
+
+                  <a href="https://dribbble.com/" target="_blank" class="nav__social-link">
+                    <i class="ri-whatsapp-line"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="Hero-Banner">
+         
+        <div class="content__holder">
+            <div class="logo">
+                <img src="/img/Lgbg.png" alt="">
+            </div>
+            <div class="contact">
+                <div class="slogan">
+                    <h1>DONALC</h1>
+                    <p>"Del Sueño a la Realidad: Donde Cada Obra Es un Pilar de Oportunidades."</p>
+                </div>
+                <div class="btn__contact">
+                    <a href="">Conoce Mas</a>
+                    <a href="">Contacto</a>
+                </div>
+            </div>
+        </div>
+
+      </main>
+
+      <section class="about__us">
+
+        <div class="card-container">
+            <div class="card">
+            <div class="front-content">
+              <p>Desarrollo</p>
+            </div>
+            <div class="content">
+              <p class="heading">Card Hover</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipii
+                voluptas ten mollitia pariatur odit, ab
+                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                necessitatibus dignissimos molestias.
+              </p>
+            </div>
+          </div>
+          </div>
+          
+          <div class="card-container">
+            <div class="card">
+            <div class="front-content">
+              <p>DONALC</p>
+            </div>
+            <div class="content">
+              <p class="heading">Card Hover</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipii
+                voluptas ten mollitia pariatur odit, ab
+                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                necessitatibus dignissimos molestias.
+              </p>
+            </div>
+          </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+            <div class="front-content">
+              <p>Conocenos</p>
+            </div>
+            <div class="content">
+              <p class="heading">Card Hover</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipii
+                voluptas ten mollitia pariatur odit, ab
+                minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                necessitatibus dignissimos molestias.
+              </p>
+            </div>
+          </div>
+          </div>
+
+      </section>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="/JS/main.js"></script>
+   </body>
 </html>
