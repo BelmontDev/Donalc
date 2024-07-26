@@ -352,11 +352,11 @@ a {
   }
   @media screen and (max-width: 1280px) {
     .card-container {
-      margin-bottom: 2rem;
-      margin-top: 3rem;
+      margin-bottom: 1rem;
+      margin-top:1rem;
     }
 }
-  
+
   .card {
     width: 100%;
     height: 100%;
@@ -462,6 +462,13 @@ a {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  @media screen and (max-width: 1068px) {
+    .projects__holder{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -530,3 +537,69 @@ a {
   }
 
   /*=============== END OF GALERIA  ===============*/
+
+  /*=============== START OF ABOUT US  ===============*/
+.valores{
+  width: 100%;
+  height: auto;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card__us{
+  height: 25rem;
+  width: 20rem;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 5rem;
+  margin-bottom:5rem;
+  flex-wrap: wrap;
+  transition: all ease-in-out .3s;
+}
+#size{
+  font-size: 10rem;
+  display: flex;
+  transition: all ease-in-out .3s;
+}
+.values{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 2rem;
+  transition: all ease-in-out .3s;
+}
+.values ul{
+  list-style: circle;
+  transition: all ease-in-out .3s;
+}
+
+.card__us:hover{
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  box-shadow: 1px 15px 15px aliceblue;
+ #size{
+  display: none;
+}
+.values{
+  display: flex;
+}
+}
+
+@media screen and (max-width: 1068px) {
+  .card__us{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+  /*=============== END OF ABOUT US   ===============*/
